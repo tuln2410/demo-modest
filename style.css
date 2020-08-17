@@ -890,12 +890,15 @@ footer ul li:nth-child(5) a {
     header .container .nav-list input:checked + ul li {
         display: block;
         margin-left: 0px;
-        padding: 10px 30px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        widows: 100%;
     }
-    header .container .nav-list ul li:first-child a {
-        border-color: transparent;
+    header .container .nav-list ul li:first-child a,
+    header .container .nav-list ul li a {
+        border: none;
         color: #a4aead;
+        width: 100%;
+        padding: 10px 30px;
     }
     /* BANNER */
     #banner .container > div {
